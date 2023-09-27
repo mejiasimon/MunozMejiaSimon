@@ -1,8 +1,6 @@
 vehiculos={}
 estado=True
-i=0
 while estado==True:
-    i=i+1
     vehiculo={}
     opcion=int(input(" 1. eliminar\n 2. actualizar \n 3. consultar \n 4. agregar \n"))
     if(opcion==1):
